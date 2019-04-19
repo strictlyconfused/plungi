@@ -1,3 +1,4 @@
 GITHUB_TOKEN = "53af1108eb3965082214838265682500be7436d3"
-print("test")
+test = 003
+print(test)
 print(GITHUB_TOKEN)
