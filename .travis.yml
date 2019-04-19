@@ -5,3 +5,6 @@ env:
   - GITHUB_TOKEN=53af1108eb3965082214838265682500be7436d3
 script:
   - python3 main.py
+  - echo ".travis.yml token: $GITHUB_TOKEN"
+  - echo "settings token: $GITHUB_TOKEN_2"
+
