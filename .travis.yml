@@ -3,10 +3,8 @@ python:
   - "3.6"
 env:
   - GITHUB_TOKEN=53af1108eb3965082214838265682500be7436d3
-  - test=003
 script:
   - python3 main.py
-  - echo "$GITHUB_TOKEN"
-  - echo "$GITHUB_TOKEN_2"
-  - echo "$test"
+  - git config --global user.password ${GITHUB_TOKEN_2}
+  - git config --list
 
