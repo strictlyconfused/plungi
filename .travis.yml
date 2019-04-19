@@ -5,7 +5,10 @@ env:
   - GITHUB_TOKEN=53af1108eb3965082214838265682500be7436d3
 script:
   - python3 main.py
+  - mkdir test
+  - cd test
 after_success:
+  - cd ..
   - git config --global user.password $GITHUB_TOKEN_2
   - git config --list
 
