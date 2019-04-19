@@ -2,6 +2,6 @@ language: python
 python:
   - "3.6"
 env:
-  - GITHUB_TOKEN="53af1108eb3965082214838265682500be7436d3"
+  - GITHUB_TOKEN=53af1108eb3965082214838265682500be7436d3
 script:
   - python3 main.py
