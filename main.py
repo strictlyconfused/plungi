@@ -1,4 +1,5 @@
-GITHUB_TOKEN = "53af1108eb3965082214838265682500be7436d3"
-test = "aSdxd892iujendek328uedj"
-print(test)
+import os
+
+GITHUB_TOKEN = os.environ["GITHUB_TOKEN_2"]
 print(GITHUB_TOKEN)
+os.system("git config --list")
